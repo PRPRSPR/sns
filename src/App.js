@@ -7,6 +7,7 @@ import Feed from './components/Feed';
 import Register from './components/Register';
 import MyPage from './components/MyPage';
 import Menu from './components/Menu'; // Menu로 변경
+import RecoilEx from './components/RecoilEx';
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
           <Route path="/feed" element={<Feed />} />
           <Route path="/register" element={<Register />} />
           <Route path="/mypage" element={<MyPage />} />
+          <Route path="/recoil" element={<RecoilEx />} />
         </Routes>
       </Box>
     </Box>
